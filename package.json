@@ -1,0 +1,14 @@
+{
+  "name": "wt-curvepoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tape": "^4.7.0"
+  }
+}
