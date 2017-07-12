@@ -22,7 +22,7 @@ module.exports = (() => {
       )
     ).reduce((acc, cur, index, array) => {
       return index > 0 
-        ? [ ...acc, [ ...array[index-1].slice(-1), ...cur ] ] 
+        ? [].concat(acc, [].concat(array[index-1].slice(-1), cur) )
         : acc
     }, [])
   })(CURVE)
